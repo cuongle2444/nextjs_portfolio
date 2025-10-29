@@ -21,8 +21,8 @@ import SiteLayout from "@/components/layouts/sitelayout";
 export default function Home() {
   const studies = [
     {
-      school: "Trường Đại học Công nghệ TP.HCM",
-      major: "Chuyên ngành: Hệ thống thông tin",
+      school: "HUTECH - Đại học Công nghệ TP.HCM",
+      major: "Chuyên ngành: Công Nghệ Thông Tin",
       timeline: "2022 – 2026",
     },
     {
@@ -38,7 +38,7 @@ export default function Home() {
         "Cisco Packet Tracer",
         "Java",
         "Python (Scripting)",
-        "SQL Server",
+        "C#",
       ],
     },
     {
@@ -58,24 +58,24 @@ export default function Home() {
       title: "Networking Basics",
       issuer: "Tan Dung Vo - Cisco Networking Academy",
       date: "Sep 20, 2025",
-      image: "/nextjs_portfolio/images/networking_basics_certificate.png",
-      pdfLink: "/nextjs_portfolio/pdf/Networking_Basics_certificate.pdf",
+      image: "/images/networking_basics_certificate.png",
+      pdfLink: "/pdf/Networking_Basics_certificate.pdf",
     },
     {
       id: 2,
       title: "JavaScript Essentials 1",
       issuer: "Tan Dung Vo - Cisco Networking Academy",
       date: "Sep 27, 2025",
-      image: "/nextjs_portfolio/images/javascript_essentials_1.png",
-      pdfLink: "/nextjs_portfolio/pdf/JavaScript_Essentials_1.pdf",
+      image: "/images/javascript_essentials_1.png",
+      pdfLink: "/pdf/JavaScript_Essentials_1.pdf",
     },
     {
       id: 3,
       title: "JavaScript Essentials 2",
       issuer: "Tan Dung Vo - Cisco Networking Academy",
       date: "Oct 28, 2025",
-      image: "/nextjs_portfolio/images/javascript_essentials_2.png",
-      pdfLink: "/nextjs_portfolio/pdf/JavaScript_Essentials_2_certificate.pdf",
+      image: "/images/javascript_essentials_2.png",
+      pdfLink: "/pdf/JavaScript_Essentials_2_certificate.pdf",
     },
   ];
   return (
@@ -89,16 +89,17 @@ export default function Home() {
             </h1>
             <p className="text-xl text-slate-300 mb-4">
               Sinh viên năm 4 ngành <strong>Công nghệ Thông tin</strong> –
-              chuyên ngành <strong>An ninh mạng</strong>
+              chuyên ngành <strong>An toàn thông tin</strong>
               <br />
               (MSSV: 2280600333)
             </p>
             <p className="text-slate-400 mb-8">
-              Đang nỗ lực học tập và rèn luyện để trở thành một lập trình viên
-              an ninh mạng có trách nhiệm. Với nền tảng kiến thức về mạng máy
-              tính, mã hóa và bảo mật hệ thống, em mong muốn được tham gia các
-              dự án thực tế, học hỏi từ anh chị đi trước và đóng góp vào việc
-              xây dựng môi trường số an toàn, đáng tin cậy.
+              Em đang từng ngày nỗ lực trau dồi kiến thức và kỹ năng để trở
+              thành một lập trình viên An ninh mạng tận tâm, đáng tin cậy.
+              Với niềm đam mê công nghệ và hiểu biết về mạng máy tính, mã hóa,
+              bảo mật hệ thống, em mong muốn được thử sức trong các dự án thực
+              tế, học hỏi kinh nghiệm từ các anh chị đi trước và đóng góp một 
+              phần nhỏ vào hành trình xây dựng không gian mạng an toàn cho mọi người.
             </p>
             <div className="flex gap-4">
               <Button asChild className="bg-blue-600 hover:bg-blue-700">
@@ -117,7 +118,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg border border-slate-700 avatar">
               <div className="aspect-square bg-slate-800 rounded-lg flex items-center justify-center">
                 <img
-                  src="/nextjs_portfolio/images/avatar.png"
+                  src="/images/avatar.png"
                   className="w-full h-full object-cover rounded-lg bg-white"
                   alt="Avatar Image"
                 />
@@ -237,7 +238,7 @@ export default function Home() {
             className="flex items-center gap-3 text-slate-300 hover:text-blue-400 transition"
           >
             <Mail className="w-5 h-5" />
-            tngo5415@gmail.com
+            cuongle6364@gmail.com
           </a>
           <a
             href="https://linkedin.com"
@@ -246,7 +247,7 @@ export default function Home() {
             className="flex items-center gap-3 text-slate-300 hover:text-blue-400 transition"
           >
             <Phone className="w-5 h-5" />
-            (+84) 339528742
+            (+84) 377748900
           </a>
           <a
             href="https://linkedin.com"

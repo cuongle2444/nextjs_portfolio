@@ -21,7 +21,7 @@ export default function Navigation({
             Blog
           </Link>
           <a
-            href="/nextjs_portfolio/#contact"
+            href="/#contact"
             className="text-slate-300 hover:text-white transition"
           >
             Liên lạc
