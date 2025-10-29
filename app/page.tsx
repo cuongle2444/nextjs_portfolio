@@ -117,7 +117,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg border border-slate-700 avatar">
               <div className="aspect-square bg-slate-800 rounded-lg flex items-center justify-center">
                 <img
-                  src="/images/avatar.png"
+                  src="/nextjs_portfolio/images/avatar.png"
                   className="w-full h-full object-cover rounded-lg bg-white"
                   alt="Avatar Image"
                 />
