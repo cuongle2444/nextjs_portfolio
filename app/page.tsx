@@ -58,24 +58,24 @@ export default function Home() {
       title: "Networking Basics",
       issuer: "Tan Dung Vo - Cisco Networking Academy",
       date: "Sep 20, 2025",
-      image: "/nextjs_portfolio/images/networking_basics_certificate.png",
-      pdfLink: "/nextjs_portfolio/pdf/Networking_Basics_certificate.pdf",
+      image: "/images/networking_basics_certificate.png",
+      pdfLink: "/pdf/Networking_Basics_certificate.pdf",
     },
     {
       id: 2,
       title: "JavaScript Essentials 1",
       issuer: "Tan Dung Vo - Cisco Networking Academy",
       date: "Sep 27, 2025",
-      image: "/nextjs_portfolio/images/javascript_essentials_1.png",
-      pdfLink: "/nextjs_portfolio/pdf/JavaScript_Essentials_1.pdf",
+      image: "/images/javascript_essentials_1.png",
+      pdfLink: "/pdf/JavaScript_Essentials_1.pdf",
     },
     {
       id: 3,
       title: "JavaScript Essentials 2",
       issuer: "Tan Dung Vo - Cisco Networking Academy",
       date: "Oct 28, 2025",
-      image: "/nextjs_portfolio/images/javascript_essentials_2.png",
-      pdfLink: "/nextjs_portfolio/pdf/JavaScript_Essentials_2_certificate.pdf",
+      image: "/images/javascript_essentials_2.png",
+      pdfLink: "/pdf/JavaScript_Essentials_2_certificate.pdf",
     },
   ];
   return (
@@ -117,7 +117,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg border border-slate-700 avatar">
               <div className="aspect-square bg-slate-800 rounded-lg flex items-center justify-center">
                 <img
-                  src="/nextjs_portfolio/images/avatar.png"
+                  src="/images/avatar.png"
                   className="w-full h-full object-cover rounded-lg bg-white"
                   alt="Avatar Image"
                 />
