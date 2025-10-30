@@ -34,12 +34,7 @@ export default function Home() {
   const skills = [
     {
       category: "Chuyên môn",
-      items: [
-        "Cisco Packet Tracer",
-        "Java",
-        "Python (Scripting)",
-        "C#",
-      ],
+      items: ["Cisco Packet Tracer", "Java", "Python (Scripting)", "C#"],
     },
     {
       category: "Kỹ năng mềm",
@@ -58,24 +53,24 @@ export default function Home() {
       title: "Networking Basics",
       issuer: "Tan Dung Vo - Cisco Networking Academy",
       date: "Sep 20, 2025",
-      image: "/images/networking_basics_certificate.png",
-      pdfLink: "/pdf/Networking_Basics_certificate.pdf",
+      image: "/nextjs_portfolio/images/networking_basics_certificate.png",
+      pdfLink: "/nextjs_portfolio/pdf/Networking_Basics_certificate.pdf",
     },
     {
       id: 2,
       title: "JavaScript Essentials 1",
       issuer: "Tan Dung Vo - Cisco Networking Academy",
       date: "Sep 27, 2025",
-      image: "/images/javascript_essentials_1.png",
-      pdfLink: "/pdf/JavaScript_Essentials_1.pdf",
+      image: "/nextjs_portfolio/images/javascript_essentials_1.png",
+      pdfLink: "/nextjs_portfolio/pdf/JavaScript_Essentials_1.pdf",
     },
     {
       id: 3,
       title: "JavaScript Essentials 2",
       issuer: "Tan Dung Vo - Cisco Networking Academy",
       date: "Oct 28, 2025",
-      image: "/images/javascript_essentials_2.png",
-      pdfLink: "/pdf/JavaScript_Essentials_2_certificate.pdf",
+      image: "/nextjs_portfolio/images/javascript_essentials_2.png",
+      pdfLink: "/nextjs_portfolio/pdf/JavaScript_Essentials_2_certificate.pdf",
     },
   ];
   return (
@@ -95,11 +90,11 @@ export default function Home() {
             </p>
             <p className="text-slate-400 mb-8">
               Em đang từng ngày nỗ lực trau dồi kiến thức và kỹ năng để trở
-              thành một lập trình viên An ninh mạng tận tâm, đáng tin cậy.
-              Với niềm đam mê công nghệ và hiểu biết về mạng máy tính, mã hóa,
-              bảo mật hệ thống, em mong muốn được thử sức trong các dự án thực
-              tế, học hỏi kinh nghiệm từ các anh chị đi trước và đóng góp một 
-              phần nhỏ vào hành trình xây dựng không gian mạng an toàn cho mọi người.
+              thành một lập trình viên An ninh mạng tận tâm, đáng tin cậy. Với
+              niềm đam mê công nghệ và hiểu biết về mạng máy tính, mã hóa, bảo
+              mật hệ thống, em mong muốn được thử sức trong các dự án thực tế,
+              học hỏi kinh nghiệm từ các anh chị đi trước và đóng góp một phần
+              nhỏ vào hành trình xây dựng không gian mạng an toàn cho mọi người.
             </p>
             <div className="flex gap-4">
               <Button asChild className="bg-blue-600 hover:bg-blue-700">
@@ -118,7 +113,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg border border-slate-700 avatar">
               <div className="aspect-square bg-slate-800 rounded-lg flex items-center justify-center">
                 <img
-                  src="/images/avatar.png"
+                  src="/nextjs_portfolio/images/avatar.png"
                   className="w-full h-full object-cover rounded-lg bg-white"
                   alt="Avatar Image"
                 />

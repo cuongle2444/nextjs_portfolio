@@ -16,7 +16,7 @@ export default function BlogPage() {
       date: "2024-01-15",
       category: "Java",
       readTime: "8 phút đọc",
-      image: "/images/java-streams-functional-programming.jpg",
+      image: "/nextjs_portfolio/images/java-streams-functional-programming.jpg",
       slug: "java-streams-functional-programming",
     },
     {
@@ -28,7 +28,7 @@ export default function BlogPage() {
       date: "2024-01-10",
       category: "JavaScript",
       readTime: "10 phút đọc",
-      image: "/images/javascript-async-await-promises.jpg",
+      image: "/nextjs_portfolio/images/javascript-async-await-promises.jpg",
       slug: "javascript-async-await",
     },
     {
@@ -40,7 +40,8 @@ export default function BlogPage() {
       date: "2024-01-05",
       category: "Java",
       readTime: "12 phút đọc",
-      image: "/images/spring-boot-microservices-architecture.jpg",
+      image:
+        "/nextjs_portfolio/images/spring-boot-microservices-architecture.jpg",
       slug: "spring-boot-microservices",
     },
   ];
